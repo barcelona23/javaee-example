@@ -12,7 +12,7 @@ import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
 
-@Service
+@Service(value = "servicioInformacionLibros")
 @WebService(endpointInterface="com.arquitecturajava.webservices.ServicioInformacionLibros")
 public class ServicioInformacionLibrosCXF implements ServicioInformacionLibros {
 
